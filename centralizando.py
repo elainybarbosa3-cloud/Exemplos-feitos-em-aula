@@ -1,0 +1,12 @@
+print("="*60)
+print("somando dois números"  .center(50, '-'))
+print("="*60)
+print()
+print("="*60)
+print(f"{'multiplicando dois números': -^50}")
+print("="*60)
+#operadores com string
+print("="*20)
+print("oi corno\n"*5)
+print("*"*9)
+print("oi" + "corno")
