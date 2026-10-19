@@ -61,14 +61,16 @@ texto = " ˙ ✩°˖🫐 ⋆｡˚꩜ 𝐅𝐫𝐮𝐭𝐚𝐫𝐢𝐚 ˚˖𓍢ִ
 print('='*len(texto))
 print(texto)
 print('='*len(texto))
-#Adicionando uma condição e 
+#adicionando o nome da fruta
 continuar = "sim"
 while continuar == "sim" or continuar == 's':
+#verficando se a fruta já está na lista
     novo_item = input("𖧷₊˚˖𓍢ִ🍓✧˚.🎀༘⋆ﾟ＊ Digite o nome da fruta para adicionar a feira 𖧷₊˚˖𓍢ִ🍓✧˚.🎀༘⋆ﾟ＊: ").strip().title()
     if novo_item == '':
-        print("⋆｡‧˚ʚ🍒ɞ˚‧｡⋆ Digite o nome de uma fruta para realizar o cadastro ⋆｡‧˚ʚ🍒ɞ˚‧｡⋆: ")
+        print("⋆｡‧˚ʚ🍒ɞ˚‧｡⋆ Digite o nome de uma fruta para realizar o cadastro ⋆｡‧˚ʚ🍒ɞ˚‧｡⋆: ")    
     elif novo_item in frutas:
         posicao = frutas.index(novo_item) + 1
+#Informar o ultimo elemento da lista
         print(f"o item informado já existe na{posicao}ª a posição da lista")
     else:
         frutas.append(novo_item)
