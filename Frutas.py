@@ -78,7 +78,3 @@ while continuar == "sim" or continuar == 's':
         print(frutas)
     continuar = input("⋆｡‧˚ʚ🍒ɞ˚‧｡⋆ deseja continuar 'sim' ou 'não' ⋆｡‧˚ʚ🍒ɞ˚‧｡⋆: ").strip().lower()
 print("lista das frutas: ")
-#Imprimindo a lista toda
-for i, fruta in enumerate(frutas):
-    print(f"{i + 1} - {fruta}")
-print(f"a lista contém {len(frutas)} tipos de frutas")
